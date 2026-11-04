@@ -1,0 +1,9 @@
+# Секреты: файл с токеном бота
+.env
+
+# База данных SQLite
+barbershop.db
+
+# Кэш Python
+__pycache__/
+*.pyc
