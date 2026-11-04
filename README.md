@@ -1,16 +1,15 @@
-# Telegram-бот для записи в барбершоп BRITVA
+# BRITVA — сайт и Telegram-бот для барбершопа
 
-Клиент записывается к мастеру прямо в Telegram за минуту, без звонков.
+Лендинг барбершопа с онлайн-записью через Telegram-бота. Демо-проект.
 
-Что умеет:
-- выбор услуги, даты и времени
-- сбор имени и телефона
-- занятое время нельзя выбрать повторно
-- отмена записи на любом шаге
+- Сайт: https://meowblaks.github.io/britva-site/
+- Бот — в папке `bot` (там же инструкция по запуску)
 
-Как запустить:
-1. Нужен Python 3.10+. Установите библиотеки: `pip install -r requirements.txt`
-2. Получите токен у @BotFather и вставьте его в файл `.env` (образец — `.env.example`).
-3. Запустите бота: `python bot.py`
+---
 
-Стек: Python · aiogram 3 · SQLite
+# BRITVA — barbershop website and Telegram bot
+
+Barbershop landing page with online booking via a Telegram bot. Demo project.
+
+- Website: https://meowblaks.github.io/britva-site/
+- The bot is in the `bot` folder (setup instructions inside)
