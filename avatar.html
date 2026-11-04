@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>BRITVA — аватар</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html, body {
+      width: 512px;
+      height: 512px;
+      overflow: hidden;
+    }
+
+    .avatar {
+      width: 512px;
+      height: 512px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background:
+        radial-gradient(360px 240px at 50% 38%, rgba(192, 138, 78, .14), transparent 70%),
+        #17130f;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      max-width: 70%;
+    }
+
+    .logo__text {
+      font-family: "Cormorant Garamond", serif;
+      font-weight: 600;
+      font-size: 70px;
+      letter-spacing: .14em;
+      margin-right: -.14em;
+      line-height: 1;
+      color: #f6f1e7;
+      white-space: nowrap;
+    }
+
+    .logo__dot {
+      flex: none;
+      width: 22px;
+      height: 22px;
+      margin-left: 20px;
+      border-radius: 50%;
+      background: #c08a4e;
+    }
+  </style>
+</head>
+<body>
+  <div class="avatar">
+    <span class="logo"><span class="logo__text">BRITVA</span><span class="logo__dot"></span></span>
+  </div>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BRITVA — барбершоп</title>
+  <meta name="description" content="Барбершоп BRITVA — стрижки, бороды, бритьё. Спокойная атмосфера и внимание к деталям.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="#top">BRITVA<span class="logo__dot"></span></a>
+      <nav class="nav">
+        <a href="#about">О нас</a>
+        <a href="#services">Услуги</a>
+        <a href="#masters">Мастера</a>
+        <a href="#visit">Визит</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <a class="btn btn--outline" href="#contacts">Записаться</a>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text reveal">
+          <p class="eyebrow">Барбершоп в центре города</p>
+          <h1>Традиции<br>бритья,<br><em>новое</em> время</h1>
+          <p class="hero__lead">Спокойное место, где стрижка превращается в час тишины: горячее полотенце, точная рука мастера и никакой суеты.</p>
+          <a class="btn btn--gold" href="#contacts">Записаться онлайн</a>
+        </div>
+        <figure class="arch arch--hero reveal">
+          <img src="images/hero.jpg" alt="Мастер за работой">
+        </figure>
+      </div>
+      <div class="hero__scroll">
+        <span></span>
+      </div>
+    </section>
+
+    <section class="section section--light" id="about">
+      <div class="container about">
+        <figure class="arch arch--sm reveal">
+          <img src="images/interior.jpg" alt="Интерьер барбершопа">
+        </figure>
+        <div class="about__text reveal">
+          <p class="eyebrow eyebrow--dark">Философия</p>
+          <h2>Место, куда приходят<br>не спеша</h2>
+          <p>Мы убрали всё лишнее: крик, спешку, шум. Остались кожа кресел, запах дерева и дип-хауса, тёплый свет и мастера, которые слушают прежде, чем брать в руки ножницы.</p>
+          <p>Каждая стрижка начинается с разговора и чашки кофе — и заканчивается тем, что вы задерживаетесь у зеркала чуть дольше обычного.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--dark" id="services">
+      <div class="container services">
+        <div class="services__head reveal">
+          <p class="eyebrow">Услуги</p>
+          <h2>Коротко<br>о главном</h2>
+        </div>
+        <ul class="price reveal">
+          <li class="price__row">
+            <div class="price__name"><span>Мужская стрижка</span><small>консультация, стрижка, укладка</small></div>
+            <span class="price__line"></span>
+            <span class="price__value">1 800 ₽</span>
+          </li>
+          <li class="price__row">
+            <div class="price__name"><span>Оформление бороды</span><small>контур, горячее полотенце, масло</small></div>
+            <span class="price__line"></span>
+            <span class="price__value">1 200 ₽</span>
+          </li>
+          <li class="price__row price__row--accent">
+            <div class="price__name"><span>Стрижка + борода</span><small>полный образ, около двух часов</small></div>
+            <span class="price__line"></span>
+            <span class="price__value">2 700 ₽</span>
+          </li>
+          <li class="price__row">
+            <div class="price__name"><span>Королевское бритьё</span><small>опасная бритва, уход за кожей</small></div>
+            <span class="price__line"></span>
+            <span class="price__value">1 500 ₽</span>
+          </li>
+        </ul>
+        <p class="services__note reveal">Запись — через <a href="#contacts">сайт</a> или Telegram-бота. Свободное время есть уже на завтра.</p>
+      </div>
+    </section>
+
+    <section class="section section--light" id="masters">
+      <div class="container masters">
+        <div class="masters__head reveal">
+          <p class="eyebrow eyebrow--dark">Мастера</p>
+          <h2>Руки, которым<br>доверяют</h2>
+        </div>
+        <div class="masters__grid">
+          <figure class="arch reveal">
+            <img src="images/master-1.jpg" alt="Мастер Артём">
+            <figcaption><strong>Артём</strong><span>топ-барбер · 9 лет</span></figcaption>
+          </figure>
+          <figure class="arch reveal">
+            <img src="images/master-2.jpg" alt="Мастер Кирилл">
+            <figcaption><strong>Кирилл</strong><span>барбер · 6 лет</span></figcaption>
+          </figure>
+          <figure class="arch reveal">
+            <img src="images/master-3.jpg" alt="Мастер Даниил">
+            <figcaption><strong>Даниил</strong><span>барбер · 4 года</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--dark" id="visit">
+      <div class="container visit">
+        <figure class="arch arch--tall reveal">
+          <img src="images/process.jpg" alt="Процесс стрижки">
+        </figure>
+        <div class="visit__text">
+          <div class="visit__head reveal">
+            <p class="eyebrow">Визит</p>
+            <h2>Как это проходит</h2>
+          </div>
+          <ol class="steps reveal">
+            <li><span>01</span><div><h3>Запись</h3><p>Выбираете услугу, день и время — онлайн, за минуту.</p></div></li>
+            <li><span>02</span><div><h3>Разговор</h3><p>Обсуждаем форму, смотрим на фото, пьём кофе.</p></div></li>
+            <li><span>03</span><div><h3>Работа</h3><p>Точная стрижка, при необходимости — борода и бритьё.</p></div></li>
+            <li><span>04</span><div><h3>Уход</h3><p>Укладка и короткий совет, как повторить дома.</p></div></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--light section--last" id="contacts">
+      <div class="container contacts">
+        <div class="contacts__text reveal">
+          <p class="eyebrow eyebrow--dark">Контакты</p>
+          <h2>Запишитесь<br>на визит</h2>
+          <dl class="contacts__list">
+            <div><dt>Адрес</dt><dd>ул. Центральная, 12</dd></div>
+            <div><dt>Часы</dt><dd>ежедневно 9:00 — 19:00</dd></div>
+            <div><dt>Телефон</dt><dd><a href="tel:+79990000000">+7 999 000-00-00</a></dd></div>
+            <div><dt>Запись</dt><dd><a href="https://t.me/my_shop_barber_bot">@my_shop_barber_bot</a> · 1 минута</dd></div>
+          </dl>
+          <a class="btn btn--dark" href="https://t.me/my_shop_barber_bot">Открыть запись в Telegram</a>
+        </div>
+        <figure class="arch arch--lg reveal">
+          <img src="images/tools.jpg" alt="Инструменты барбера">
+        </figure>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="logo">BRITVA<span class="logo__dot"></span></span>
+      <span class="footer__copy">© 2026 Барбершоп BRITVA</span>
+      <a href="#top">Наверх</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
